@@ -16,7 +16,10 @@
   "dependencies": {
     "express": "^4.15.2",
     "moment": "^2.18.1",
-    "os": "^0.1.1"
+    "os": "^0.1.1",
+    "request": "^2.81.0",
+    "useragent": "^2.1.13",
+    "yamlparser": "0.0.2"
   },
   "engines": {
     "node": "^4.3.1",
