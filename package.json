@@ -1,12 +1,12 @@
 {
-  "name": "lewood_timestamp_ms",
+  "name": "Request Header Parser Microservice",
   "version": "1.0.0",
-  "description": "a timestamp microservice app for freeCodeCamp",
+  "description": "a header parser microservice app for freeCodeCamp",
   "main": "index.html",
   "keywords": [],
   "repository": {
     "type": "git",
-    "url": "git://github.com/LeWood16/fcc-timestamp-microservice"
+    "url": "git://github.com/LeWood16/fcc-header-parser-microservice"
   },
   "scripts": {
     "start": "node index.js"
@@ -15,8 +15,6 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.15.2",
-    "moment": "^2.18.1",
-    "os": "^0.1.1",
     "public-ip": "^2.3.3",
     "request": "^2.81.0",
     "useragent": "^2.1.13",

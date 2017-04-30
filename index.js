@@ -1,20 +1,16 @@
 'use strict';
 var express = require('express');
-var os = require('os');
 var useragent = require('useragent');
 var publicIp = require('public-ip');
-
 useragent(true);
 
 var app = express();
-var ifaces = os.networkInterfaces();
 var obj = {};
 
 // parses public ip, depending in it being either v4 or v6
 publicIp.v4().then(function (ip) {
     obj.ipaddress = ip;
 });
-
 publicIp.v6().then(function (ip) {
     obj.ipaddress = ip;
 });
