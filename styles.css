@@ -1,0 +1,14 @@
+body{
+    color: #FFF;
+    background: #000;
+}
+
+ul{
+    color: #F00;
+}
+
+.test{
+    font-size: 501px;
+    font-weight: 900;
+    font-variant: small-caps;
+}

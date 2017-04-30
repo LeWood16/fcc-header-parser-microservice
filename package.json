@@ -1,0 +1,25 @@
+{
+  "name": "lewood_timestamp_ms",
+  "version": "1.0.0",
+  "description": "a timestamp microservice app for freeCodeCamp",
+  "main": "index.html",
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/LeWood16/fcc-timestamp-microservice"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.2",
+    "moment": "^2.18.1",
+    "os": "^0.1.1"
+  },
+  "engines": {
+    "node": "^4.3.1",
+    "npm": "^4.5.0"
+  }
+}
